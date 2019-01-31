@@ -30,5 +30,5 @@ module.exports = {
 
 // the following we pass three commands add, title arg and body arg to addNote to app.js
 
-// node app.js add --title=Yarg_testing --body="Welcome to parsing with yargs"
+// node app.js add --title=Yarg_testing --body="Welcome to json"
 
