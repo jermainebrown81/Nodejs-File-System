@@ -1,0 +1,14 @@
+we need to get the unique input from the user and store this information ?
+
+when someone adds a new note we want to save it somewhere i.e file system this is where
+json comes in.
+
+
+json (javascript object notation) represents javascript arrays and objects using a string.
+
+why would we want to use this ?
+
+Ans: we can save json as it is a string to i.e a text file , database then read it later
+and parse it back into javascript array or object and do something with it.
+
+
