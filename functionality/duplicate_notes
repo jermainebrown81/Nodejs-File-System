@@ -1,0 +1,30 @@
+
+ // object to test
+ let addNote = (title, body) => {
+     let notes = [];
+     let note = {
+         title,
+         body
+     };
+
+ // The filter() method creates a new array filled with all array elements that pass a test (provided as a function).
+ // holds duplicate items/notes so we will not add these note/s
+
+     let duplicateNotes = notes.filter( (note) => note.title === title); // filter is an array method that takes an callback
+
+ // test for duplicates testing notes array length to 0
+    if (duplicateNotes.length === 0) { // if there are no duplicates add these two lines
+        notes.push(note); // add note {} to the notes[] array
+        fs.writeFileSync('notes-data.json', JSON.stringify(notes)); // convert object in array to string // updates notes.json file
+    }
+
+ };
+
+
+// if the length of duplicateNotes is > 0 then do not save the note
+// because a note already exists with that title.
+
+
+The filter() method creates a new array of elements that pass the conditional we provide.
+In other words, if the element passes and returns true, it will be included in the filtered array.
+And any element that fails or return false, it will be NOT be in the filtered array.

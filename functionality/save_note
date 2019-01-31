@@ -1,0 +1,30 @@
+Create a note object inside a function
+
+let addNote = (title, body) => {
+    let notes = [];
+    let note = {
+        title,
+        body
+    };
+
+// add a note to the array using push() this allows us to push an
+// item that is added to the end of an array
+
+notes.push(note);
+
+
+// update the file // if we don't have a file we create one
+// in our case we want a json file to handle the json object
+
+fs.writeFileSync('notes-data.json', JSON.stringify(notes)); //convert object in array to string.. updates notes.json file
+
+// above we pass in the contents we want to save (notes)
+
+// to use in more than one place use a reference variable
+
+
+}; // remember to close function with semi colon
+
+---------------------------------------------------------------------
+
+
