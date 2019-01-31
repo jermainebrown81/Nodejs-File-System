@@ -1,0 +1,16 @@
+https://github.com/yargs/yargs
+
+Yargs helps you build interactive command line tools, by parsing arguments
+and generating an elegant user interface.
+
+installation
+
+npm init -y
+
+Stable version:
+
+npm i yargs --save
+
+Bleeding edge version with the most recent features:
+
+npm i yargs@next --save
