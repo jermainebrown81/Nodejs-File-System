@@ -1,0 +1,46 @@
+// we can pass commands that will tell the app what to do i.e add note, remove note etc..
+
+node app.js add
+node app.js remove
+
+// passing argument from command line
+// following would list all of our notes
+
+node app.js list
+
+output
+
+starting apps.js
+Starting notes.js
+[ '/usr/local/bin/node',
+  '/Development/Programs/nodejs/01_Note_App/04_user_input/app.js',
+  'list' ]
+
+// note! we have access to the list command already we are just not
+// using it inside of the application.
+
+// to access the commandline arguments
+// use the process object do this in app.js.
+
+// passing args with flag
+
+// using app.js
+
+in terminal
+
+// this line passes title arg into our app
+node app.js remove --title=title of note
+
+node app.js remove --title="title of note"
+
+
+
+
+
+
+
+
+
+
+
+
