@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nodejs-File-System
 
 <p> <b> This script reads and writes using the filesystem to persist data by getting input from a user. </b> </p>
@@ -10,3 +11,6 @@
 <p> </p>
 
 <img src="work_harder.jpg" height="150" width="150">
+=======
+# Nodejs-File-System
+>>>>>>> parent of 807e3c3... amended readme
