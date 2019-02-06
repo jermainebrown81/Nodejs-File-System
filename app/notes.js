@@ -73,7 +73,6 @@ let removeNote = (title) => {
 };
 // refactoring code from app.js prevents code being called in two different locations
 let logNote = (note) => {
-    debugger; // debug code
         console.log(`Title: ${note.title} \n Body: ${note.body}`);
 };
 
